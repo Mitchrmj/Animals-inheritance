@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class Main {
     public static void main(String[] args) {
         System.out.println("Animal crackers");
@@ -15,6 +17,18 @@ class Main {
 
         Fish liam = new Fish("Liam");
         System.out.println(liam.getLegs());
+
+        StBernard dave = new StBernard("Dave");
+        dave.rescue("Liam");
+
+
+
+
+
+        Monkey edward = new Monkey("Edward");
+        System.out.println(edward.getLegs());
+
+        ArrayList<Animal> animals = new ArrayList<>();
 
     }
 

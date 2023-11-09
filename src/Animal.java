@@ -1,6 +1,6 @@
 public class Animal {
     protected String name;
-    private int legs;
+    protected int legs;
     private String sound;
 
 
